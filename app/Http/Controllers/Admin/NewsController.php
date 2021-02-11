@@ -16,4 +16,9 @@ class NewsController extends Controller
     {
         return view('admin.profile.create');
     }
+    
+    public function profile_edit()
+    {
+        return view('admin.profile.edit');
+    }
 }
